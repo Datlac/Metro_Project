@@ -36,7 +36,5 @@ public class Route {
 		this.routePartList = routePartList;
 	}
 	
-	public Station getBeginStation() {
-		
-	}
+
 }
