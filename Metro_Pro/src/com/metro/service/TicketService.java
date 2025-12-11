@@ -21,7 +21,11 @@ public class TicketService {
         if (instance == null) instance = new TicketService();
         return instance;
     }
-
+    
+//    public Ticket purchaseTicket(...) throws InsufficientBalanceException {
+//        if (customer.getWalletBalance() < price) {
+//            throw new InsufficientBalanceException("Số dư không đủ. Cần thêm: " + (price - customer.getWalletBalance()));
+//        }
     
     public Ticket purchaseTicket(Customer customer, String startStation, String endStation, TicketType ticketType) {
         

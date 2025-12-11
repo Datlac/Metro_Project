@@ -1,6 +1,6 @@
 package com.metro.main;
 
-//import com.metro.gui.LoginFrame;
+import com.metro.gui.LoginFrame;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
@@ -39,8 +39,8 @@ public class MetroApp {
      */
     private static void launchApplication() {
         try {
-//            LoginFrame loginFrame = new LoginFrame();
-//            loginFrame.setVisible(true);
+            LoginFrame loginFrame = new LoginFrame();
+            loginFrame.setVisible(true);
             System.out.println("Ứng dụng Metro System đã khởi động thành công!");
         } catch (Exception e) {
             e.printStackTrace();
